@@ -1,17 +1,12 @@
+number_count = 1
 
-i = 1
-while i <=30:
-    print (i)
-    i = i + 1   #ინკრემენტაცია(ზრდა)
-
-print("finished")
-
-def analyze_number(number):
-    if number % 2 == 0:
-        print(f"{number} is an even number.")
+while number_count <= 30:
+    if number_count % 2 == 1:
+        print(str(number_count) + "is odd")
     else:
-        print(f"{number} is an odd number.")
+       print(str(number_count) + "is even")
+    number_count += 1
 
-# Example usage:
-number_to_analyze = 30  # Replace with the number you want to analyze
-analyze_number(number_to_analyze)
+
+print("Finished!")
+ 
