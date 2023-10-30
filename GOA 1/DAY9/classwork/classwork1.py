@@ -5,9 +5,17 @@ def draw_square():
         forward(100)
         left(90)
 def kalmis_wageba(x,y):
+    penup()                      #penup- შეჩერება 
+    goto(0,200)
+    pendown()
 
-def kalmis_wageba(x,y):
+draw_square()
 
+  
+
+penup()
+goto(-200,200)
+pendown()
 
 draw_square()
 

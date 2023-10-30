@@ -19,6 +19,7 @@
 # numbers = list(range(5,20,3))
 # print(numbers)
 
-numbers = list(range(3,15,3))
-print(numbers[2])
+#6
+# numbers = list(range(3,15,3))
+# print(numbers[2])
 

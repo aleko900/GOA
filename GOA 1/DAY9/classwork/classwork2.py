@@ -15,10 +15,10 @@
 # print("ghame")
 # bitchebtan_misalmeba()
 
-#parameter(any)
+#parameter(any) #პარამეტრი - ზოგადი სახელი
 def misalmeba(saxeli):
     print("mogesalmebi" + saxeli)
-
+#არგუმენტი - კონკრეტული სახელი
 misalmeba("aleko")
 misalmeba("nika")
 misalmeba("gabrieli")
