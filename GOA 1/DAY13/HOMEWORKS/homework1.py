@@ -2,6 +2,7 @@
 name = input("Enter the user's name: ")
 age = int(input("Enter the user's age: "))
 if name.lower() == "mate":
-    print(f"Happy birthday, {name.capitalize()}! You have attended many, you turned {age + 1} years old.")
+    print(f"gilocav dabadebis dges, {name.capitalize()}! shen gaxdi {age + 1} wlis.")
 else:
     print("Not Mate's birthday.")
+
