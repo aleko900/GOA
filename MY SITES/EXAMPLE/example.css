@@ -1,0 +1,26 @@
+.grid-container{
+    display: grid;
+    grid-template-areas:
+     'header header header header header header'
+     'menu main main main right right'
+     'menu footer footer footer footer footer';
+    gap: 10px;
+    background-color: aqua;
+    padding: 10px;
+
+}
+
+.grid-container > div{
+    background-color: blue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30 px;
+
+}
+button{
+    text-align: center;
+    color: darkgreen;
+    font: optional;
+    font-size: large;
+
+}
